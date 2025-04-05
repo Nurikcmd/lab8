@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         serviceIntent = new Intent(this, MyService.class);
 
-        // Запрашиваем необходимые разрешения
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             requestPermissions();
         }
